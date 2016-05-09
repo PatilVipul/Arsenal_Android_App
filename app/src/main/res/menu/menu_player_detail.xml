@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.vipul.arsenal.PlayerDetailActivity">
+
+    <item android:id="@+id/info" android:title="Club Information"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/uninstall" android:title="Uninstall"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

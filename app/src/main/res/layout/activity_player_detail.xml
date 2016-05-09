@@ -1,0 +1,41 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.vipul.arsenal.PlayerDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player Name"
+        android:id="@+id/playerNameTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerPhotoImageView"
+        android:layout_below="@+id/playerNameTextView"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Player Description"
+        android:id="@+id/playerDescriptionTextView"
+        android:layout_below="@+id/playerPhotoImageView"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:layout_margin="5dp" />
+    </RelativeLayout>
+</ScrollView>
